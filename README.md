@@ -1,38 +1,31 @@
+# Minor Project One: Password Cracking Lab 
 
-#Minor project one: Password cracking lab
+## Project Description
+This project demonstrates how weak passwords can be cracked using common password cracking methods such as dictionary attacks and brute-force attacks.
 
-**Minor project one : Password cracking lab**
+##  Goals
+- Understand how password hashing concepts work
+- Perform common password cracking methods
+- Measure time taken to crack different passwords
+- Understand the importance of strong passwords
 
+## Tools Used
+1. Kali Linux  
+2. Oracle VirtualBox  
+3. Hashcat  
+4. John the Ripper  
 
-**project description:**
-    This project demonstarted how weak passwords can be cracked using common password cracking method like bruteforce,dictionary attack.
+## Environment Setup
+- Oracle VirtualBox is used to run Kali Linux in an isolated environment.
+- For safety and ethical reasons, all experiments are performed only inside Kali Linux using dummy data.
 
-**Goals:**
-    ->understand how password hashing concept work.
-    ->perform common password cracking methods.
-    ->Measure time taken to crack different password.
-    ->Understand importance of strong password.
+---
 
-**Tools Used:**
-    1)Kali linux
-    2)Virtualbox
-    3)Hashcat
-    4)John the ripper
+## Day 1 Progress
 
-
-**Environment setup:**
--->Oracel vitualbox is used to rum Kali Linux in isolated environment.
--->For safety and ethical reason all the experiments are performed in Kali linux.
-
-    
-**Environment setup:**
--->Oracel vitualbox is used to rum Kali Linux in isolated environment.
--->For safety and ethical reason all the experiments are performed in Kali linux.
-
-**Day 1:**
-
-##tasks completed:##
-->installed oracle virtualbox in windows
-->downloaded and imported kali linux virtual machine
-->Successfully logged into kalilinux
-->set up shared folder between windows and kali for file transfer
+### Tasks Completed
+- Installed Oracle VirtualBox on Windows
+- Downloaded and imported Kali Linux virtual machine
+- Successfully logged into Kali Linux
+- Verified password cracking tools
+- Set up shared folder between Windows and Kali for file transfer
