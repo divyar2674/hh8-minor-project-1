@@ -27,5 +27,4 @@ This project demonstrates how weak passwords can be cracked using common passwor
 - Installed Oracle VirtualBox on Windows
 - Downloaded and imported Kali Linux virtual machine
 - Successfully logged into Kali Linux
-- Verified password cracking tools
 - Set up shared folder between Windows and Kali for file transfer
