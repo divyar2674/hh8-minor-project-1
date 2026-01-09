@@ -31,4 +31,15 @@ This project demonstrates how weak passwords can be cracked using common passwor
 
 ## Day 2:Kali Linux basics and project preparation
 
-### tasks:
+### tasks completed:
+  - Practiced basic Kali linux terminal commands like pwd,mkdir,rm etc.
+  - verified rockyou.txt wordlist for dictionary attacks.
+  - checked version and availability of Hashcat and John the Ripper.
+
+### Brief description
+ - **Day 2 was focused on understanding the kali linux environment and preparing system for password cracking experiments.**
+ - Basic linux terminal commands like pwd,ls,mkdir,sudo were practiced to familiarize with kali linux operating system and understand file navigation.
+ - availability of essential password cracking tools were checked and updated to ensure proper tool configuration.
+ - Additionally, built-in wordlists like **rockyou.txt** required for dictionary attack were located and verified.
+
+ **Day-2 mainly focused on building familiarity with operating environment and tools before performing actual password cracking experiments.**
