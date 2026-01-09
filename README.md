@@ -29,4 +29,6 @@ This project demonstrates how weak passwords can be cracked using common passwor
 - Successfully logged into Kali Linux
 - Set up shared folder between Windows and Kali for file transfer
 
-## Day 2:Kali Linux basics and project preperation
+## Day 2:Kali Linux basics and project preparation
+
+### tasks:
