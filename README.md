@@ -43,3 +43,11 @@ This project demonstrates how weak passwords can be cracked using common passwor
  - Additionally, built-in wordlists like **rockyou.txt** required for dictionary attack were located and verified.
 
  **Day-2 mainly focused on building familiarity with operating environment and tools before performing actual password cracking experiments.**
+
+## Day 3:dummy password and Hash generation
+### tasks completed:
+  - list of dummy passwords with different strength levels were created.
+  - generated MD5 hashes for each password created.
+ 
+### Brief Description:
+On Day 3, dummy passwords were created and converted into MD5 hashes to simulate real-world password storage. These hashes were prepared for further cracking experiments using security tools.
