@@ -1,0 +1,8 @@
+?:123456
+?:password
+?:admin123
+?:welcome
+?:iloveyou
+?:abc@123
+
+6 password hashes cracked, 4 left
