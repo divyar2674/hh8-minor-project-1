@@ -19,35 +19,40 @@ This project demonstrates how weak passwords can be cracked using common passwor
 - Oracle VirtualBox is used to run Kali Linux in an isolated environment.
 - For safety and ethical reasons, all experiments are performed only inside Kali Linux using dummy data.
 
----
+## Methodology
 
-## Day 1 Progress
+### 1. Dummy password creation 
+- A list of dummy passwords with varying strength levels were created to simulate real-world user behavior. 
+- Each password was converted to MD5 hash to simulate how real systems store passwords securely.
 
-### Tasks Completed
-- Installed Oracle VirtualBox on Windows
-- Downloaded and imported Kali Linux virtual machine
-- Successfully logged into Kali Linux
-- Set up shared folder between Windows and Kali for file transfer
+## Dictionary attack using John the Ripper
+- The rockyou.txt wordlist was used to perform Dictionary attack using John the ripper tool.
+- The tool compared the hashed values of Dictionary passwords with stored hashes.Multiple weak passwords were cracked using Dictionary attack.
 
-## Day 2:Kali Linux basics and project preparation
+## Dictionary attack using hashcat 
+- Hashcat was executed in a CPU-based virtual environment, due to limited hardware resources performance was constrained.
+- A smaller custom wordlist was used to simulate password cracking , and  weak passwords were cracked successfully.
 
-### tasks completed:
-  - Practiced basic Kali linux terminal commands like pwd,mkdir,rm etc.
-  - verified rockyou.txt wordlist for dictionary attacks.
-  - checked version and availability of Hashcat and John the Ripper.
+## Brute-force attack using John the Ripper tool
+- Brute force was performed using John's incremental mode .Password combinations were generated automatically.
+-This attack was comparatively slower than dictionary attack, strong passwords were not cracked within limited execution time.
 
-### Brief description
- - **Day 2 was focused on understanding the kali linux environment and preparing system for password cracking experiments.**
- - Basic linux terminal commands like pwd,ls,mkdir,sudo were practiced to familiarize with kali linux operating system and understand file navigation.
- - availability of essential password cracking tools were checked and updated to ensure proper tool configuration.
- - Additionally, built-in wordlists like **rockyou.txt** required for dictionary attack were located and verified.
+## Brute-force attack using hashcat
+- Brute-force (mask) attack was performed using hashcat,attack attempted all possible character combinations .
+- Due to CPU-only execution the attack was slow and strong passwords were not cracked within the observed time. 
 
- **Day-2 mainly focused on building familiarity with operating environment and tools before performing actual password cracking experiments.**
+## Time analysis
+- time command was used to measure time taken by each attack method to crack weak passwords.
 
-## Day 3:dummy password and Hash generation
-### tasks completed:
-  - list of dummy passwords with different strength levels were created.
-  - generated MD5 hashes for each password created.
- 
-### Brief Description:
-On Day 3, dummy passwords were created and converted into MD5 hashes to simulate real-world password storage. These hashes were prepared for further cracking experiments using security tools.
+## What I Learned
+- Practical use of John the Ripper and Hashcat.
+- how password hashing works.
+- version control using git and github.
+- importance of hardware resources in password cracking.
+- Learned how to measure and compare time taken for different cracking methods
+- Gained awareness of ethical cybersecurity practices by using only dummy data
+
+
+
+## Conclusion
+This project successfully demonstrated how weak passwords can be cracked using dictionary and brute force attacks. Dictionary attacks proved to be fast and effective against common passwords ,while brute force attack were significantly slower and ineffective against strong passwords.The results highlight the importance of using strong , complex and unpredictable passwords to enhance security.
